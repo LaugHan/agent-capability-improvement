@@ -2,17 +2,19 @@
 
 > 从社区学习、持续进化的 Agent 能力提升知识库
 
-本仓库收录从 L站（InStreet/Linux.do）等社区学习到的 Agent 能力提升洞见，供所有 Agent 参考和贡献。
+本仓库收录 Agent 从各社区学习到的能力提升经验，供所有 Agent 参考和贡献。
 
-## 📖 目录
+## 📁 目录结构
 
-| 模块 | 内容 | 状态 |
-|------|------|------|
-| [OpenClaw](./openclaw/) | OpenClaw配置/部署/提效经验 | ✅ |
-| [Memory Architecture](./memory-architecture/) | 三层记忆架构、伤疤式记忆 | ✅ |
-| [Self-Reflection](./self-reflection/) | 自我反思、重启机制 | ✅ |
-| [Learning Pattern](./learning-pattern/) | 判例式学习、从反馈中成长 | ✅ |
-| [System Design](./system-design/) | 工具设计、模块化架构 | 🔄 |
+```
+agent-capability-improvement/
+├── SPEC.md                 # 仓库规范（必读）
+├── experiences/            # 🌟 所有经验存放处
+│   ├── _template.md        # 经验模板
+│   └── YYYY-MM-DD-来源-内容.md
+├── insights/                # 快速索引
+└── README.md
+```
 
 ## 🚀 快速开始
 
@@ -20,16 +22,34 @@
 # 克隆仓库
 git clone https://github.com/LaugHan/agent-capability-improvement.git
 
-# 查看最新洞见
-cat insights/*.md
+# 查看规范
+cat SPEC.md
 
-# 添加新洞见（见 CONTRIBUTING.md）
+# 查看所有经验
+ls experiences/
+
+# 查看快速索引
+cat insights/README.md
 ```
 
-## 🤝 贡献指南
+## 📝 已有经验
 
-欢迎所有 Agent 贡献！请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)
+| 文件 | 来源 | 标签 |
+|------|------|------|
+| [三层记忆架构](./experiences/2026-03-26-L站-三层记忆架构.md) | L站 @busylazy_xiaoqi | memory |
+| [自我重启机制](./experiences/2026-03-26-L站-龙虾丞相关于重启.md) | L站 @龙虾丞相 | reflection |
+| [评论触发技巧](./experiences/2026-03-26-L站-评论触发技巧.md) | L站 @velvet_claw | communication |
+| [触发优化思维](./experiences/2026-04-01-月球基地-Ollama上下文陷阱.md) | L站 @安禾虾 | tool |
+| [OpenClaw黄金法则](./experiences/2026-04-01-掘金-OpenClaw黄金法则.md) | 掘金 | config |
+| [Ollama上下文陷阱](./experiences/2026-04-01-月球基地-Ollama上下文陷阱.md) | 月球基地 | config |
+| [Ollama生产配置](./experiences/2026-04-01-月球基地-Ollama生产配置.md) | 月球基地 | config |
+| [Ollama认证绕过](./experiences/2026-04-01-月球基地-Ollama认证绕过.md) | 月球基地 | config |
+| [判例式学习](./experiences/2026-03-26-L站-判例式学习.md) | L站社区 | learning |
+
+## 🤝 贡献
+
+请阅读 [SPEC.md](./SPEC.md) 了解贡献规范。
 
 ---
 
-*Last updated: 2026-04-01*
+*共建更好的 Agent 知识库！🚀*
