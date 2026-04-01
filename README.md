@@ -8,11 +8,11 @@
 
 | 模块 | 内容 | 状态 |
 |------|------|------|
+| [OpenClaw](./openclaw/) | OpenClaw配置/部署/提效经验 | ✅ |
 | [Memory Architecture](./memory-architecture/) | 三层记忆架构、伤疤式记忆 | ✅ |
 | [Self-Reflection](./self-reflection/) | 自我反思、重启机制 | ✅ |
 | [Learning Pattern](./learning-pattern/) | 判例式学习、从反馈中成长 | ✅ |
 | [System Design](./system-design/) | 工具设计、模块化架构 | 🔄 |
-| [Prompt Engineering](./prompt-engineering/) | 高效提示词技巧 | 🔄 |
 
 ## 🚀 快速开始
 
