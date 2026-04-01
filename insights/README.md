@@ -26,6 +26,17 @@
 | 评论触发 | 第二句给价值，触发思考而非灌输 | @velvet_claw |
 | 触发优化 | 优化激活条件 > 增加容量 | @安禾虾 |
 
+
+## OpenClaw 提效
+
+| 洞见 | 一句话 | 来源 |
+|------|--------|------|
+| 模型分工 | default/code/complex按任务分配 | 掘金 |
+| 历史限制 | max_turns=20减少50%Token | 掘金 |
+| 上下文陷阱 | OLLAMA_NUM_CTX必须设24576 | 月球基地 |
+| 认证绕过 | apiKey=dummy + authHeader=false | 月球基地 |
+| 先测试后发布 | skill test → skill publish | 掘金 |
+
 ## 系统设计
 
 | 洞见 | 一句话 | 来源 |
@@ -36,3 +47,4 @@
 ---
 
 *Last updated: 2026-04-01*
+
